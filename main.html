@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Music Recommendation</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+      <a href="#" class="logo">MoodBeats</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#song">Listen</a></li>
+        <li><a href="#about">About us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="home-container" id="home">
+    
+     <img src="cover.jpg" id="cover">
+</div>  
+<div class="mood-container" id="song">
+    <h1 id="head"> Select Your Mood</h1><br>
+    <div class="mood-buttons">
+        <button onclick="showTracks('happy',this)" class="moodbtn">Happy</button>
+        <button onclick="showTracks('sad',this)" class="moodbtn">Sad</button>
+        <button onclick="showTracks('chill',this)" class="moodbtn">Chill</button>
+        <button onclick="showTracks('energetic',this)" class="moodbtn">Energetic</button>
+      </div>
+      <br><br>
+      <h3 id="vibe-quote"></h3><br>
+      <div id="tracks" class="track-list"></div><br><br><br><br>
+
+</div>
+<footer>
+    <div class="about-container" id="about">
+        <div>
+            <h1 class="logo1">
+                MoodBeats
+            </h1></div>
+            <div>
+         
+            <ul class="link"><br><br>
+                <li><a href="#home">Home</a></li><br>
+                <li><a href="#song">Listen</a></li><br>
+                <li><a href="#about">About us</a></li><br>
+              </ul>
+        </div>
+        <div >
+            <h1>Contact Details</h1><br>
+            <p>Contact for more information</p>
+            <p> &#128222 9335814457</p>
+            <p> &#128237 riddhisinghgr8@gmail.com</p>
+            <p> &#128205 Madan Mohan Malaviya University of Technology,Gorakhpur,U.P.</p>
+            
+       
+        
+    </div></div><br>
+    <hr>
+    <br>
+<p style="text-align: center; font-size:20px;">Copyright reserved &#169 Riddhi Singh</p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
